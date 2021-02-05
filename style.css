@@ -31,7 +31,7 @@
 .computer p{
     font-size: 25px;
     font-weight: bold;
-    color: brown;
+    color: darkblue;
 }
 
 .user{
@@ -48,9 +48,40 @@
 .user p{
     font-size: 25px;
     font-weight: bold;
-    color: brown;
+    color: chocolate;
+}
+.result p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.score{
+    width: 300px ;
+    display: inline-block;
+    border: 2px dotted black;
+    margin: 30px 50px;
+    text-align: center;
+    border-radius: 5px;
 }
 
+.computer-score p{
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+}
+.player-score p{
+    font-size: 25px;
+    font-weight: bold;
+    color: green;
+}
+
+.heading{
+    color: dimgray;
+}
+.computer p{
+    font-size: 25px;
+    font-weight: bold;
+    color: chocolate;
+}
 .result{
     width: 300px;
     display: inline-block;
@@ -59,13 +90,8 @@
     text-align: center;
     border-radius: 5px;
 }
-.result h2{
-    color: dimgray;
-}
-.result p{
-    font-size: 25px;
-    font-weight: bold;
-    color: darkgreen;
+.score{
+    text-align: center;
 }
 
 button {
