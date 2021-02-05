@@ -25,6 +25,13 @@ buttons.forEach(button => button.addEventListener("click", (event) =>{
 
 }))
 
+document.getElementById('reset').addEventListener("click", function (){
+  computerScoreCounter = 0;
+  computerScore.textContent = computerScoreCounter.toString()
+  playerScoreCounter = 0;
+  playerScore.textContent = playerScoreCounter.toString()
+});
+
 // get a random computer choices
 function generateComputerChoice(){
   let randomNumber = Math.round(Math.random() *(4));
